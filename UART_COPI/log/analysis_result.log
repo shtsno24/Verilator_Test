@@ -1,0 +1,98 @@
+100
+    Verilator_real : mean    = 0.015100000000000002
+                   : 3 * std = 0.0028301943396169815
+    Verilator_user : mean    = 0.003
+                   : 3 * std = 0.006
+    Verilator_sys : mean    = 0.0015
+                  : 3 * std = 0.00687386354243376
+    Verilog_real : mean    = 0.020399999999999995
+                 : 3 * std = 0.0024000000000000002
+    Verilog_user : mean    = 0.005599999999999999
+                 : 3 * std = 0.004686149805543992
+    Verilog_sys : mean    = 0.0007
+                : 3 * std = 0.0063
+
+1000
+    Verilator_real : mean    = 0.015999999999999997
+                   : 3 * std = 0.0023237900077244496
+    Verilator_user : mean    = 0.0046
+                   : 3 * std = 0.004686149805543992
+    Verilator_sys : mean    = 0.0006000000000000001
+                  : 3 * std = 0.0054
+    Verilog_real : mean    = 0.0258
+                 : 3 * std = 0.006406246951218785
+    Verilog_user : mean    = 0.007300000000000001
+                 : 3 * std = 0.009491575211733825
+    Verilog_sys : mean    = 0.0013000000000000002
+                : 3 * std = 0.007595393340703298
+
+10000
+    Verilator_real : mean    = 0.017800000000000003
+                   : 3 * std = 0.002615339366124401
+    Verilator_user : mean    = 0.006
+                   : 3 * std = 0.0032863353450309964
+    Verilator_sys : mean    = 0.00030000000000000003
+                  : 3 * std = 0.0027
+    Verilog_real : mean    = 0.05550000000000001
+                 : 3 * std = 0.0036124783736376917
+    Verilog_user : mean    = 0.022
+                 : 3 * std = 0.007224956747275378
+    Verilog_sys : mean    = 0.0007
+                : 3 * std = 0.0063
+
+100000
+    Verilator_real : mean    = 0.03660000000000001
+                   : 3 * std = 0.006462197768561404
+    Verilator_user : mean    = 0.0183
+                   : 3 * std = 0.006579513659838392
+    Verilator_sys : mean    = 0.0006000000000000001
+                  : 3 * std = 0.0054
+    Verilog_real : mean    = 0.4528
+                 : 3 * std = 0.12147444175628058
+    Verilog_user : mean    = 0.1639
+                 : 3 * std = 0.06326302237484388
+    Verilog_sys : mean    = 0.0254
+                : 3 * std = 0.048041232290606375
+
+1000000
+    Verilator_real : mean    = 0.25360000000000005
+                   : 3 * std = 0.04673071794868984
+    Verilator_user : mean    = 0.14799999999999996
+                   : 3 * std = 0.022208106627986102
+    Verilator_sys : mean    = 0.005900000000000001
+                  : 3 * std = 0.017972478960900193
+    Verilog_real : mean    = 4.4296
+                 : 3 * std = 0.4139330380629219
+    Verilog_user : mean    = 1.7892
+                 : 3 * std = 0.37839217750899656
+    Verilog_sys : mean    = 0.16299999999999998
+                : 3 * std = 0.17548333254186846
+
+10000000
+    Verilator_real : mean    = 3.0322
+                   : 3 * std = 0.40582316345916003
+    Verilator_user : mean    = 1.5869
+                   : 3 * std = 0.14378390035049135
+    Verilator_sys : mean    = 0.0367
+                  : 3 * std = 0.07054849395982879
+    Verilog_real : mean    = 50.011599999999994
+                 : 3 * std = 23.67115374374473
+    Verilog_user : mean    = 17.4078
+                 : 3 * std = 2.5239307914441715
+    Verilog_sys : mean    = 1.4914999999999998
+                : 3 * std = 0.5676317908644652
+
+100000000
+    Verilator_real : mean    = 31.174800000000005
+                   : 3 * std = 1.1535917128689854
+    Verilator_user : mean    = 17.4921
+                   : 3 * std = 0.5059879544020784
+    Verilator_sys : mean    = 0.37909999999999994
+                  : 3 * std = 0.1303840864522968
+    Verilog_real : mean    = 582.2133
+                 : 3 * std = 54.129048368597786
+    Verilog_user : mean    = 196.6489
+                 : 3 * std = 44.33764728095076
+    Verilog_sys : mean    = 19.562800000000003
+                : 3 * std = 6.712309009573384
+

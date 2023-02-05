@@ -1,0 +1,52 @@
+make: Entering directory '/mnt/c/Data/Verilator_Test/UART_COPI/obj_dir'
+ccache g++  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow       -Os -c -o uart_copi_if_tb.o ../uart_copi_if_tb.cpp
+ccache g++  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow       -Os -c -o verilated.o /usr/local/share/verilator/include/verilated.cpp
+ccache g++  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow       -Os -c -o verilated_vcd_c.o /usr/local/share/verilator/include/verilated_vcd_c.cpp
+ccache g++  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow       -Os -c -o verilated_threads.o /usr/local/share/verilator/include/verilated_threads.cpp
+/usr/bin/perl /usr/local/share/verilator/bin/verilator_includer -DVL_INCLUDE_OPT=include Vuart_copi_if.cpp Vuart_copi_if___024root__DepSet_hf1d50a5a__0.cpp Vuart_copi_if___024root__DepSet_hdcad3896__0.cpp Vuart_copi_if__Trace__0.cpp Vuart_copi_if__ConstPool_0.cpp Vuart_copi_if___024root__Slow.cpp Vuart_copi_if___024root__DepSet_hf1d50a5a__0__Slow.cpp Vuart_copi_if___024root__DepSet_hdcad3896__0__Slow.cpp Vuart_copi_if__Syms.cpp Vuart_copi_if__Trace__0__Slow.cpp > Vuart_copi_if__ALL.cpp
+ccache g++  -I.  -MMD -I/usr/local/share/verilator/include -I/usr/local/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=1 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=1 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-sign-compare -Wno-uninitialized -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable -Wno-shadow       -Os -c -o Vuart_copi_if__ALL.o Vuart_copi_if__ALL.cpp
+echo "" > Vuart_copi_if__ALL.verilator_deplist.tmp
+Archive ar -rcs Vuart_copi_if__ALL.a Vuart_copi_if__ALL.o
+g++    uart_copi_if_tb.o verilated.o verilated_vcd_c.o verilated_threads.o Vuart_copi_if__ALL.a    -pthread -lpthread -latomic   -o Vuart_copi_if
+rm Vuart_copi_if__ALL.verilator_deplist.tmp
+make: Leaving directory '/mnt/c/Data/Verilator_Test/UART_COPI/obj_dir'
+
+real	0m0.464s
+user	0m0.022s
+sys	0m0.000s
+
+real	0m0.102s
+user	0m0.022s
+sys	0m0.000s
+
+real	0m0.062s
+user	0m0.000s
+sys	0m0.015s
+
+real	0m0.078s
+user	0m0.019s
+sys	0m0.001s
+
+real	0m0.088s
+user	0m0.020s
+sys	0m0.000s
+
+real	0m0.074s
+user	0m0.000s
+sys	0m0.020s
+
+real	0m0.087s
+user	0m0.020s
+sys	0m0.000s
+
+real	0m0.089s
+user	0m0.000s
+sys	0m0.021s
+
+real	0m0.096s
+user	0m0.022s
+sys	0m0.000s
+
+real	0m0.070s
+user	0m0.000s
+sys	0m0.022s

@@ -1,0 +1,6 @@
+counter/*
+UART_COPI/lint_result.log
+UART_COPI/compile_run_cpp.log
+UART_COPI/compile_run_verilog.log
+UART_COPI/*.vcd
+UART_COPI/obj_dir
